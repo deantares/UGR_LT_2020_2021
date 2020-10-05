@@ -14,7 +14,7 @@ port = 12345
 
 BUFFER_SIZE = 1024
 
-MESSAGE = "Como mola la telematica" #Esto es lo que vamos a enviar
+MESSAGE = "Hola mundo2" #Esto es lo que vamos a enviar
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as socket_tcp:
 	socket_tcp.connect((host,port))
